@@ -130,8 +130,8 @@
                 'data': data
               },
               'paint': {
-                'circle-radius': 10,
-                'circle-color': "green"
+                'circle-radius': {'base': 1.75, 'stops': [[12, 5],[22, 200]},
+]               'circle-color': ['match', ['get', 'Color'], 'blue', '#0000FF', 'green', '#454B1B', 'orange', '#FBCEB1', 'yellow', '#EADDCA', /* other */ '#ccc' //"green"
               }
             });
 
